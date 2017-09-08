@@ -1,5 +1,5 @@
 import PythonMagick
-image = PythonMagick.Image("user/root/sample_image.jpg")
+image = PythonMagick.Image("/ruchi/sample_image.jpg")
 print image.fileName()
 print image.magick()
 print image.size().width()

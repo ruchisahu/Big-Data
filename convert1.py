@@ -1,9 +1,14 @@
 import PythonMagick
 import sys
+from StringIO import StringIO
 
-stdin = sys.stdin.read()
-array = numpy.frombuffer(stdin, dtype='uint8')
-image = PythonMagick.Image(array,1)
+
+completeStdin = sys.stdin.read()
+input = StringIO(completeStdin)
+
+
+
+image = PythonMagick.Image(input)
 print image.fileName()
 print image.magick()
 print image.size().width()

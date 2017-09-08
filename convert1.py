@@ -1,4 +1,3 @@
-import PythonMagick
 import sys
 from StringIO import StringIO
 

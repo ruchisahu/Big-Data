@@ -1,9 +1,8 @@
+import StringIO
 import sys
-from StringIO import StringIO
 
+filelike = StringIO.StringIO(sys.stdin.read())
 
-completeStdin = sys.stdin.read()
-input = StringIO(completeStdin)
-
-print("hello")
-
+# Now use `filelike` as a regular open file, e.g.:
+filelike.seek(2)
+print filelike.read()

@@ -91,7 +91,7 @@ public class WebLogReader
  
    @Override
    public boolean equals(Object o) 
-   {Rules for creating custom Hadoop Writable
+   {
      if (o instanceof WebLogWritable) 
      {
        WebLogWritable other = (WebLogWritable) o;

@@ -1,3 +1,4 @@
+package com.refactorlabs.cs378.utils;
 import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;

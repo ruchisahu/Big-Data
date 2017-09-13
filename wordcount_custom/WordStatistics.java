@@ -1,9 +1,7 @@
-package com.refactorlabs.cs378.assign2;
 
-import com.google.common.collect.Maps;
-import com.refactorlabs.cs378.utils.DoubleArrayWritable;
-import com.refactorlabs.cs378.utils.LongArrayWritable;
-import com.refactorlabs.cs378.utils.WordStatisticsWritable;
+import java.io.*;
+import org.apache.hadoop.io.*;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.ArrayWritable;
